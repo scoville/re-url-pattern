@@ -1,0 +1,16 @@
+{
+  "name": "re-url-pattern",
+  "version": "0.1.0",
+  "description": "Bindings for the official URLPattern class",
+  "license": "MIT",
+  "scripts": {
+    "build": "rescript build",
+    "clean": "rescript clean && rm -fr lib",
+    "format:fix": "rescript format -all",
+    "example:run": "rescript build && node example/index.js"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.4",
+    "urlpattern-polyfill": "^1.0.0-rc1"
+  }
+}
